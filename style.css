@@ -1,0 +1,28 @@
+body {
+    font-family: 'Open Sans';
+}
+
+div.jumbotron {
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.tw_dialog-box { 
+    background-color: white; 
+    border-radius:16px; 
+}
+
+.tw_button-primary  { background-color: #CF4C49; color:white; border-color:#CF4C49; border-radius:4px; }
+
+.tw_primary-header  { background-color: white; color:#324054; font-size:30px; }
+
+.tw_input-base      { border-color: lightgrey; font-size:12pt; border-radius:4px; }
+
+.tw_focusable-element:focus {
+    outline-offset: 0;
+    outline-width: 1px;
+    outline-color: #CF4C49;
+}
